@@ -64,54 +64,56 @@ const GlobalStyles = createGlobalStyle`
     --shadow-2xl: 0px 12px 12px #00000040;
     --shadow-3xl: 0 16px 16px #00000040;
 
-    //FONTS
-    @font-face {
-      font-family: 'estedad';
-      font-weight: 100;
-      src: url('../fonts/Estedad-Thin.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'estedad';
-      font-weight: 200;
-      src: url('../fonts/Estedad-ExtraLight.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'estedad';
-      font-weight: 300;
-      src: url('../fonts/Estedad-Light.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'estedad';
-      font-weight: 400;
-      src: url('../fonts/Estedad-Regular.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'estedad';
-      font-weight: 500;
-      src: url('../fonts/Estedad-Medium.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'estedad';
-      font-weight: 600;
-      src: url('../fonts/Estedad-SemiBold.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'estedad';
-      font-weight: 700;
-      src: url('../fonts/Estedad-Bold.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'estedad';
-      font-weight: 800;
-      src: url('../fonts/Estedad-ExtraBold.woff2') format('woff2');
-    }
-    @font-face {
-      font-family: 'estedad';
-      font-weight: 900;
-      src: url('../fonts/Estedad-Black.woff2') format('woff2');
-    }
+    
     
   }
+
+  //FONTS
+  @font-face {
+      font-family: "estedad";
+      font-weight: 100;
+      src: url('./fonts/Estedad-Thin.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: "estedad";
+      font-weight: 200;
+      src: url('./fonts/Estedad-ExtraLight.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: "estedad";
+      font-weight: 300;
+      src: url('./fonts/Estedad-Light.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: "estedad";
+      font-weight: 400;
+      src: url('./fonts/Estedad-Regular.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: "estedad";
+      font-weight: 500;
+      src: url('./fonts/Estedad-Medium.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: "estedad";
+      font-weight: 600;
+      src: url('./fonts/Estedad-SemiBold.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: "estedad";
+      font-weight: 700;
+      src: url('./fonts/Estedad-Bold.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: "estedad";
+      font-weight: 800;
+      src: url('./fonts/Estedad-ExtraBold.woff2') format('woff2');
+    }
+    @font-face {
+      font-family: "estedad";
+      font-weight: 900;
+      src: url('./fonts/Estedad-Black.woff2') format('woff2');
+    }
 
   //BASE
   *,*::before,*::after {
@@ -125,7 +127,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: 'estedad', sans-serif;
+    font-family: "estedad",sans-serif;
   }
 `;
 
